@@ -1,0 +1,96 @@
+/* header css */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Reem+Kufi:wght@500&display=swap');
+
+.header{
+    background:
+    radial-gradient(farthest-side at top left,
+    rgb(255, 253, 156),transparent),
+    radial-gradient(farthest-side at top right,
+    rgb(32, 11, 171),transparent),
+    radial-gradient(farthest-side at bottom left,
+    rgba(119, 25, 234, 0.75),transparent),
+    radial-gradient(farthest-corner at bottom right,
+    rgb(255, 189, 243),transparent) #003b44 ;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#appname {
+    font-size: 150px;
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50vh;
+    min-width: 150vh;
+    color:rgb(235, 235, 235);
+    text-shadow: white 1px 0 10px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    letter-spacing: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#slogan{
+    color: rgb(235, 235, 235);
+    text-shadow: white 2px 0 10px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#downloadbutton {
+    justify-content: center;
+    min-height: 10vh;
+    
+}
+
+#downloadbutton button {
+    border-color: black;
+    font-size: xx-large;
+    border-radius: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+    
+}
+
+#downloadbutton button:hover, #downloadbutton button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 189, 243);
+    border-color: black;
+    transform: translateY(-0.25em);
+    background-color: rgba(255, 255, 255, 0.552);
+}
+
+#scrollbutton {
+    display: flex;
+}
+
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+.star {
+    animation: fade 10s;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+  }

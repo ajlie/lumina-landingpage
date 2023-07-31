@@ -1,0 +1,111 @@
+.pricing {
+  flex-direction: column; 
+  justify-content: center;
+   align-content: center;
+   display: flex;
+   font-family: 'Josefin Sans', sans-serif;
+   background:     
+   radial-gradient(farthest-side at bottom left,
+   rgba(255, 253, 156),transparent),
+   radial-gradient(farthest-side at top left,
+   rgb(255, 189, 243),transparent),
+   radial-gradient(farthest-side at bottom right,
+   rgb(255, 189, 243),transparent),
+   radial-gradient(farthest-corner at top right,
+   rgb(255, 253, 156),transparent) #003b44 ;
+}
+
+#premiumheader {
+    min-width: 159vh;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(33, 33, 33);
+    text-shadow: darkgray 1px 0 10px;
+}
+
+#premiumoptions{
+    display:flex;
+    flex-direction: row;
+}
+
+#nymph {
+    display: flex;
+    min-width: 68vh;
+    align-content: center;
+    justify-content: center;
+} 
+
+#nymphframe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#nymphheader h2 {
+    font-size: 50px;
+    color: grey;
+    top: 0;
+}
+
+#pupa {
+    display:flex;
+    min-width: 68vh;
+    align-content: center;
+    justify-content: center;
+}
+
+#pupaframe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#pupaheader h2 {
+    font-size: 50px;
+    color: grey;
+    text-shadow: lightgrey 1px 0 7px;
+}
+
+#firefly {
+    display:flex;
+    min-width: 68vh;
+    align-content: center;
+    justify-content: center;
+}
+
+#fireflyframe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#fireflyheader h2 {
+    font-size: 50px;
+    color: grey;
+    text-shadow: lightgrey 1px 0 10px;
+} 
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+.tick {
+    height: 20px;
+    width: 20px;
+}

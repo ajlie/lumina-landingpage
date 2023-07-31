@@ -1,0 +1,79 @@
+.introduction{
+    flex-wrap:wrap;
+    background-color: whitesmoke;
+
+}
+
+#description{
+    padding-top: 50px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+#description h2 {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    background:     
+    radial-gradient(farthest-side at top left,
+    rgba(133, 49, 237, 0.75),transparent),
+    radial-gradient(farthest-side at top right,
+    rgb(255, 189, 243),transparent),
+    radial-gradient(farthest-side at bottom left,
+    rgb(255, 253, 156),transparent),
+    radial-gradient(farthest-corner at bottom right,
+    rgb(32, 11, 171),transparent) #003b44 ;
+    color:white;
+    max-width: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#description p {
+    color: rgb(219, 219, 219);
+}
+#overviewphoto{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#overviewphoto img {
+    padding: 20px;
+    height: 90%;
+}
+
+#mvpstatement{
+    display: flex;
+    min-width: 210vh;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#mvpstatement h2 {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    background:     
+    radial-gradient(farthest-side at top left,
+    #8531edbf,transparent),
+    radial-gradient(farthest-side at top right,
+    #ffbdf3,transparent),
+    radial-gradient(farthest-side at bottom left,
+    #fffd9c,transparent),
+    radial-gradient(farthest-corner at bottom right,
+    #200bab,transparent) #003b44 ;
+    color:white;
+    max-width: 110vh;
+}
+
+#mvpstatement p {
+    color: rgb(219, 219, 219);
+}
+
+.glowheader{
+    text-shadow: white 1px 0 10px;
+}

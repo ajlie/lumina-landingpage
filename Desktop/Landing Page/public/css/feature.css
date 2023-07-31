@@ -1,0 +1,122 @@
+.features {
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   font-family: 'Josefin Sans', sans-serif;
+   background:     
+   radial-gradient(farthest-side at bottom left,
+   rgba(133, 49, 237, 0.75),transparent),
+   radial-gradient(farthest-side at top left,
+   rgb(255, 189, 243),transparent),
+   radial-gradient(farthest-side at bottom right,
+   rgb(255, 253, 156),transparent),
+   radial-gradient(farthest-corner at top right,
+   rgb(32, 11, 171),transparent) #003b44 ;
+}
+
+#featuretitle{
+    min-width: 150vh;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+    text-shadow: white 1px 0 10px;
+
+}
+
+#mainfeature {
+    min-width: 150vh;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#mainframe{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 103vh;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mainfeaturedes{
+    flex:1;
+    padding: 20px;
+}
+
+
+#mainpicholder {
+    flex: 1;
+    padding: 20px;
+}
+
+#mainpicholder img {
+    width: 100%;
+}
+
+#subfeatures {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 20px;
+    width: 150vh;
+}
+
+#feature1{
+    display:flex;
+    align-content: center;
+    justify-content: right;
+    flex:1;
+    padding: 10px;
+}
+
+#feature1 img {
+    width: 100%;
+}
+
+#feature1picholder {
+    flex: 1;
+    padding: 20px;
+}
+
+#feature2{
+    display:flex;
+    align-content: center;
+    flex:1;
+    padding: 10px;
+}
+
+#feature2 img {
+    width: 100%;
+    height: 338px;
+}
+
+#feature2picholder {
+    flex: 1;
+    padding: 20px;
+}
+
+#sideframe1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 50vh;
+    align-items: center;
+    text-align: center;
+}
+
+#sideframe2{
+    background-color: white;
+    display: flex;
+    max-width: 50vh;
+    flex-direction: column;
+    align-self:flex-end;
+    align-items: center;
+    text-align: center;
+}
+

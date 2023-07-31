@@ -1,0 +1,76 @@
+.footer {
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    background:     
+    radial-gradient(farthest-side at bottom left,
+    #0e005aac,transparent),
+    radial-gradient(farthest-side at top left,
+    rgb(255, 189, 243),transparent),
+    radial-gradient(farthest-side at bottom right,
+    rgb(255, 189, 243),transparent),
+    radial-gradient(farthest-corner at top right,
+    rgb(32, 11, 171),transparent) #003b44 ;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: center;
+    align-content: center;
+}
+
+#formheader {
+    text-align: center;
+    font-size: 50px ;
+}
+
+#form form {
+    display: flex; 
+    flex-direction: column;
+    width: 60vh;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#inputs {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#form form input {
+    padding : 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+#form button {
+    width: 80px;
+    height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+}
+
+#form button:hover {
+    background-color: lightcyan;
+}
+
+#contact {
+    background-color: #5800B0;
+    height: 10vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contact a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+

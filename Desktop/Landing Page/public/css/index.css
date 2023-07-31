@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+/* nav bar css */
+#navbar {
+    overflow: hidden;
+    background-color: #0e005aac;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navbar img {
+    float: left;
+    display:block;
+    height: 50px;
+    width: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + #header {
+    padding-top: 60px;
+}
+
+/* section css */
+section{
+    min-height: 100vh;
+    display:flex; 
+}
+
+
+/* features css */
+.features{
+    background-color: green;
+}
+
+/* pricing css */
+.pricing {
+    background-color: purple;
+}
+
+/* footer css */
+.footer{
+    background-color: pink;
+}
